@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+}
+.color{
+    background-image: linear-gradient(to right top, #4992ff, #7e8fff, #ac89ff, #d781ff, #ff75ff);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff9bfc;
+    height: 79px;
+}
+#navleft {
+    padding: 0px 25px;
+        font-size: xx-large;
+    }
+
+
+#navleft:hover {
+    background-color: #a789ff;
+    
+}
+
+#navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navitems {
+    padding: 27px 29px;
+    text-align: center;
+    padding-bottom: 23px;}
+
+.navitems:hover {
+    background-color: #8dc6ff;
+    border-bottom: 2px solid black;
+    
+}
+.navitems a{
+    text-decoration: none;
+}
+
+
+#intro {
+    display: flex;
+    margin-top: 0px;
+}
+
+
+
+#introdivleft h1 {
+    padding: 20px 100px;
+    font-size: xxx-large;
+}
+
+#introdivleft p {
+    padding: 0px 50px 0px 50px;
+    font-size: x-large;
+}
+
+#vector1 {
+    height: 360px;
+    width: 394px;
+    padding: 0px 100px 0px 60px;
+}
+
+#skillsheading  h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#skillstable {
+    margin: auto;
+    text-align: center;
+}
+
+#skillstable tr td {
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+
+#skillstable td i {
+    font-size: 100px;
+}
+footer {
+    margin-top: px;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+}
+.footercontainerleft {
+    margin-top: 40px;
+}    
+.footeritems {
+    padding: 5px 20px;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.footercontainerright {
+    padding: 20px 60px;
+
+}
